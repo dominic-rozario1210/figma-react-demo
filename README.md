@@ -1,16 +1,49 @@
-# React + Vite
+# Figma to React – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page recreated from a Figma design using React.js and custom CSS.
 
-Currently, two official plugins are available:
+This project focuses on accurately translating a Figma UI design into a functional React application while maintaining reusable components and clean project structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Live Demo](YOUR_LIVE_DEMO_URL)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+Add your project screenshot here.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## ✨ Features
+
+- Figma design converted into a React application
+- Reusable React components
+- Custom CSS styling
+- Newsletter email input section
+- Marketing/blog card section
+- Hero and content sections
+- Clean component-based structure
+- Image and asset integration
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+│   └── images/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── Marketing.jsx
+│   └── ...
+│
+├── App.jsx
+├── main.jsx
+└── index.css
