@@ -10,6 +10,7 @@ import FooterDesign from './components/FooterDesign'
 import TestimonialSection from './components/TestimonialSection'
 import Marketing from './components/Marketing'
 import Demo from './components/Demo'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <TestimonialSection />
         <Marketing/>
         <Demo/>
+        <Footer/>
       </div>
     </>
   )
