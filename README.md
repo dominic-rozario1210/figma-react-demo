@@ -6,7 +6,7 @@ This project focuses on accurately translating a Figma UI design into a function
 
 ## 🚀 Live Demo
 
-[View Live Demo](YOUR_LIVE_DEMO_URL)
+[View Live Demo](https://figma-react-demo-upoc.vercel.app/)
 
 ## 📸 Preview
 
