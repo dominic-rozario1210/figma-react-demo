@@ -3,6 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+    background-color: #ffffff;
+
+    background-image: repeating-linear-gradient(
+        to right,
+        #ffffff 0,
+        #ffffff 27px,
+        #fff7f7 27px,
+        #fff7f7 69px
+    );
+
+    background-position: center top;
+    background-size: calc(100% - 220px) 100%;
+    background-repeat: repeat-y;
+    width: 1002px;
+    margin: 0 auto;
+  
+}
 
 .header {
   display: flex;
@@ -10,7 +28,6 @@
   align-items: center;
   width: 1002px;
   height: 59px;
-  border: 2px solid;
   gap: 43px;
   margin: 0 auto;
   padding: 11.14px 100.23px;
@@ -71,6 +88,7 @@
   height: 416.95px;
   margin: 0 auto;
   background-color: #F5F7FA;
+  background: rgba(245, 247, 250, 0.5);
 }
 
 .hero-content {
@@ -116,7 +134,6 @@
   gap: 11.14px;
   align-items: center;
   padding: 0px 100.23px;
-  border: 2px solid;
   margin-top: 27px;
   margin-bottom: 27px;
 }
@@ -214,10 +231,10 @@ p {
 /* business section */
 .business-section {
   display: flex;
-  border: 2px solid;
   width: 1002.34px;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 
 .box-image {
@@ -260,12 +277,12 @@ p {
   width: 1002.34px;
   height: 202.94px;
   margin: 0 auto;
-  border: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 100.23px 44.5px ;
   background-color: #F5F7FA;
+  background: rgba(245, 247, 250, 0.5);
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -308,7 +325,6 @@ p {
   width: 1002.34px;
   height: 301.68px;
   margin: 0 auto;
-  border: 2px solid red;
   display: flex;
   padding: 0px 100px;
   align-items: center;
@@ -357,7 +373,8 @@ p {
   margin: 0 auto;
   gap: 54px;
   padding: 22px 100px;
-  border: 2px solid red;
+  margin-bottom: 20px;
+  background: rgba(245, 247, 250, 0.5);
 }
 .testimonal-content{
   width: 520px;
@@ -384,4 +401,99 @@ p {
 }
 .meet-customers{
   color: #4CAF4F;
+}
+
+/* marketing section */
+.marketing-section{
+  width: 1002.34px;
+  height: 354pxpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 11.14px;
+  margin-bottom: 30px;
+}
+.marketing-content{
+  width: 772.64px;
+  height: 87.57px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.marketing-content h4{
+  font-size: 25px;
+}
+.marketing-content p{
+  width: 437px;
+  height: 51px;
+  font-size: 13px;
+}
+.marketing-card-section{
+  display: flex;
+  padding: 0px 100px;
+  justify-content: space-between;
+ 
+}
+.marketing-card{
+  width: 256.15px;
+  height: 255.8px;
+   position: relative;
+}
+.inner-card{
+  width: 220.65px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 11px;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #F5F7FA;
+  padding: 11px;
+  border-radius: 5px;
+}
+.inner-card h5{
+  width: 198px;
+  height: 59px;
+  color: #4D4D4D;
+  text-align: center;
+  font-size: 16px;
+}
+.inner-card p{
+  color: #4CAF4F;
+}
+/* Demo  */
+.demo-container{
+  height: 209.31px;
+  width: 1002.34px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 22px;
+  background: rgba(245, 247, 250, 0.5);
+}
+.demo-container h1 {
+  width: 617px;
+  height: 106px;
+  font-size: 44px;
+  text-align: center;
+  margin: auto;
+}
+.demo-container button{
+  background-color: #4CAF4F;
+  width: 130.55px;
+  height: 36.49px;
+  border: none;
+  color: white;
+  border-radius: 2.78px;
+  margin: auto;
+
 }

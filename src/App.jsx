@@ -8,18 +8,24 @@ import BusinessSection from './components/BusinessSection'
 import BusinessStats from './components/businessStats'
 import FooterDesign from './components/FooterDesign'
 import TestimonialSection from './components/TestimonialSection'
+import Marketing from './components/Marketing'
+import Demo from './components/Demo'
 
 const App = () => {
   return (
     <>
-      <Header/>
-      <HeroSection/>
-      <Client/>
-      <Community/>
-      <BusinessSection/>
-      <BusinessStats/>
-      <FooterDesign/>
-      <TestimonialSection/>
+      <div className='container'>
+        <Header />
+        <HeroSection />
+        <Client />
+        <Community />
+        <BusinessSection />
+        <BusinessStats />
+        <FooterDesign />
+        <TestimonialSection />
+        <Marketing/>
+        <Demo/>
+      </div>
     </>
   )
 }
